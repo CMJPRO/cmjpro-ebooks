@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Renda Extra e Empreendedorismo - eBook</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+    margin: 0;
+    padding: 0 15px;
+  }
+  .container {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 25px 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  h1 {
+    text-align: center;
+    color: #0a74da;
+  }
+  .cover-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 6px;
+  }
+  .benefits, .depoimentos, .faq {
+    margin-top: 30px;
+  }
+  .benefits ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .benefits ul li {
+    background: url('https://cdn-icons-png.flaticon.com/512/190/190411.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #333;
+  }
+  .depoimento {
+    margin-bottom: 20px;
+    border-left: 4px solid #0a74da;
+    padding-left: 15px;
+    font-style: italic;
+    color: #555;
+  }
+  .depoimento strong {
+    display: block;
+    font-style: normal;
+    margin-bottom: 5px;
+    color: #0a74da;
+  }
+  .price {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .price .old-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 1.2rem;
+  }
+  .price .new-price {
+    color: #e63946;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  .buy-button {
+    display: block;
+    background: #0a74da;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px 0;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 30px auto 10px;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
+  }
+  .buy-button:hover {
+    background: #064a9d;
+  }
+  .guarantee {
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .faq {
+    margin-top: 40px;
+  }
+  .faq-item {
+    margin-bottom: 18px;
+  }
+  .faq-question {
+    font-weight: 700;
+    color: #0a74da;
+  }
+  .faq-answer {
+    margin-left: 15px;
+    color: #555;
+  }
+  .cta-final {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #e63946;
+  }
+  @media (max-width: 480px) {
+    .container {
+      padding: 15px 20px;
+    }
+    .buy-button {
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Renda Extra e Empreendedorismo — O Guia Completo Para Você Começar a Ganhar Dinheiro de Verdade!</h1>
+    
+    <!-- Imagem da capa -->
+    <img src="URL_DA_SUA_IMAGEM_CMJPro_AQUI" alt="Capa do eBook Renda Extra e Empreendedorismo" class="cover-image" />
+    
+    <!-- Benefícios -->
+    <section class="benefits">
+      <ul>
+        <li>Como identificar oportunidades para gerar renda extra rápido</li>
+        <li>Passos simples para começar seu próprio negócio sem complicação</li>
+        <li>Métodos para atrair clientes e vender seus serviços com facilidade</li>
+        <li>Como administrar seu dinheiro e reinvestir para crescer ainda mais</li>
+        <li>Ferramentas e dicas para aumentar sua produtividade e evitar erros comuns</li>
+        <li>Tudo isso explicado numa linguagem direta e fácil de aplicar</li>
+      </ul>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos">
+      <div class="depoimento">
+        <strong>Mariana Silva</strong>
+        “Eu estava sem rumo, mas com esse eBook consegui entender como começar meu negócio. Já tenho clientes e estou crescendo rápido!”
+      </div>
+      <div class="depoimento">
+        <strong>Carlos Eduardo</strong>
+        “As dicas práticas e a linguagem simples fizeram toda a diferença. Vale cada centavo!”
+      </div>
+      <div class="depoimento">
+        <strong>Juliana Alves</strong>
+        “Recomendo para quem quer sair da mesmice e realmente fazer a diferença na vida financeira.”
+      </div>
+      <div class="depoimento">
+        <strong>Pedro Henrique</strong>
+        “Consegui renda extra em menos de um mês graças às estratégias deste guia.”
+      </div>
+    </section>
+
+    <!-- Espaço para vídeo -->
+    <section class="video" style="text-align:center; margin:40px 0;">
+      <!-- Aqui você vai colocar seu vídeo -->
+      <p><em>Vídeo explicativo em breve.</em></p>
+    </section>
+
+    <!-- Preço e botão -->
+    <div class="price">
+      <span class="old-price">R$ 49,98</span>
+      <span class="new-price">R$ 16,97</span>
+    </div>
+    <a href="LINK_DE_COMPRA_AQUI" class="buy-button" target="_blank" rel="noopener noreferrer">COMPRAR AGORA</a>
+
+    <!-- Garantia -->
+    <div class="guarantee">
+      Você tem <strong>7 dias de garantia total</strong>. Se não gostar, devolvemos seu dinheiro sem burocracia!
+    </div>
+
+    <!-- Perguntas Frequentes -->
+    <section class="faq">
+      <div class="faq-item">
+        <div class="faq-question">Ana Paula pergunta:</div>
+        <div class="faq-answer">Esse eBook serve para quem nunca trabalhou como freelancer? Sim! Ele é feito para iniciantes e explica tudo passo a passo.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">João Marcos pergunta:</div>
+        <div class="faq-answer">Preciso de algum conhecimento técnico para aplicar as dicas? Não! O conteúdo é simples e acessível para qualquer pessoa.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Larissa Gomes pergunta:</div>
+        <div class="faq-answer">Posso acessar o eBook em qualquer dispositivo? Sim! O arquivo em PDF pode ser lido no computador, celular ou tablet.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Rafael Souza pergunta:</div>
+        <div class="faq-answer">Como funciona a entrega do eBook após a compra? Assim que confirmar o pagamento, você recebe um link para download imediato.</div>
+      </div>
+    </section>
+
+    <!-- CTA Final -->
+    <div class="cta-final">
+      Não perca essa chance de mudar sua vida financeira!<br />
+      Clique no botão abaixo e garanta seu exemplar por apenas <strong>R$ 16,97</strong> enquanto dura a promoção.
+    </div>
+    <a href="LINK_DE_COMPRA_AQUI" class="buy-button" target="_blank" rel="noopener noreferrer">COMPRAR AGORA</a>
+  </div>
+</body>
+</html>
